@@ -1,11 +1,7 @@
-FROM java:8
-
+FROM openjdk:8
 RUN apt-get update && \
     apt-get install -y mysql-client
-
 WORKDIR usr/src/app
-
 COPY Sealy.jar .
 COPY .env .
-
 ENTRYPOINT ["java", "-jar", "Sealy.jar"]
