@@ -24,7 +24,8 @@ Sealy has a variety of commands that users can use to interact with the bot. The
 * DISCORD_TOKEN - Your Discord API token. This can be obtained from the Discord Developer Portal. 
 * DB_HOST - The host of your database. This should be set to 'localhost'. 
 * DB_PORT - The port of your database. The default port for MySQL is 3306. 
-* DB_NAME - The name of your database. * DB_USER - The username for your database. 
+* DB_NAME - The name of your database. 
+* DB_USER - The username for your database. 
 * DB_PASS - The password for your database. 
 * DOCKER_CONTAINER - The name of your Docker container. 
 * MYSQL_HOST - The host of your MySQL instance. This should be set to 'localhost'. 
