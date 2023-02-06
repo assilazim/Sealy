@@ -1,3 +1,7 @@
 .env
 .DS_Store
 docker-compose.yml
+idea/
+.idea/
+target/
+.target/
