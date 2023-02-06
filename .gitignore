@@ -1,7 +1,5 @@
 .env
 .DS_Store
 docker-compose.yml
-idea/
-.idea/
+.idea
 target/
-.target/
