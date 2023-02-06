@@ -20,7 +20,7 @@ Sealy has a variety of commands that users can use to interact with the bot. The
 - **!botinvite** - A command to generate an invite link for the bot.
 
 ## Configuration 
-To configure Sealybot, you will need to rename `.env-sample` to `.env` and provide the following environment variables: 
+1. To configure Sealybot, you will need to rename `.env-sample` to `.env` and provide the following environment variables: 
 * DISCORD_TOKEN - Your Discord API token. This can be obtained from the Discord Developer Portal. 
 * DB_HOST - The host of your database. This should be set to 'localhost'. 
 * DB_PORT - The port of your database. The default port for MySQL is 3306. 
@@ -31,8 +31,10 @@ To configure Sealybot, you will need to rename `.env-sample` to `.env` and provi
 * MYSQL_PORT - The port of your MySQL instance. The default port for MySQL is 3306. 
 * MYSQL_USER - The username for your MySQL instance. 
 * MYSQL_PASS - The password for your MySQL instance. 
-* Once you have provided these environment variables, you will need to rename `docker-compose-sample.yml` to `docker-compose.yml`
-* Then, build and run the Docker container. 
+
+2. Once you have provided these environment variables, you will need to rename `docker-compose-sample.yml` to `docker-compose.yml` and update lines 11 and 12 with personal DB information.
+
+3. Then, build and run the Docker container. 
 * To do this, you can use the following commands: 
 * ` docker built -t sealybot .` 
 * `docker-compose up -d` 
