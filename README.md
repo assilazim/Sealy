@@ -37,7 +37,7 @@ Sealy has a variety of commands that users can use to interact with the bot. The
 
 3. Then, build and run the Docker container. 
 * To do this, you can use the following commands: 
-* ` docker built -t sealybot .` 
+* `docker built -t sealybot .` 
 * `docker-compose up -d` 
 
 
